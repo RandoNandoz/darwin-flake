@@ -28,6 +28,8 @@
             pkgs.bash-completion
             pkgs.nix-bash-completions
             pkgs.zsh
+            pkgs.git-credential-manager
+            pkgs.gnupg
           ];
 
         environment.variables = {

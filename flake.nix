@@ -30,6 +30,7 @@
             pkgs.zsh
             pkgs.git-credential-manager
             pkgs.gnupg
+            pkgs.cling
           ];
 
         environment.variables = {
@@ -83,6 +84,9 @@
         ];
 
         homebrew = {
+          taps = [
+            "homebrew/cask-versions"
+          ];
           enable = true;
           onActivation.cleanup = "zap";
 
@@ -97,6 +101,12 @@
             "microsoft-office-businesspro"
             "altserver"
             "termius"
+            "zulu"
+            "zulu21"
+            "zulu8"
+            "utm"
+            "gimp"
+            "prismlauncher"
           ];
 
           masApps = {
@@ -104,6 +114,7 @@
             "Microsoft Remote Desktop" = 1295203466;
             "WireGuard" = 1451685025;
             "Notability" = 360593530;
+            "Xcode" = 497799835;
           };
         };
 

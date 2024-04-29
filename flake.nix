@@ -31,6 +31,9 @@
             pkgs.git-credential-manager
             pkgs.gnupg
             pkgs.cling
+            pkgs.aria2
+            pkgs.wget
+            pkgs.w3m
           ];
 
         environment.variables = {
@@ -86,6 +89,7 @@
         homebrew = {
           taps = [
             "homebrew/cask-versions"
+            "gcenx/wine"
           ];
           enable = true;
           onActivation.cleanup = "zap";
@@ -107,6 +111,9 @@
             "utm"
             "gimp"
             "prismlauncher"
+            "gcenx/wine/wineskin"
+            "gcenx/wine/wine-crossover"
+            "transmission"
           ];
 
           masApps = {
@@ -115,6 +122,7 @@
             "WireGuard" = 1451685025;
             "Notability" = 360593530;
             "Xcode" = 497799835;
+            "Infuse" = 1136220934;
           };
         };
 

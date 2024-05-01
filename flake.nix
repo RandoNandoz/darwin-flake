@@ -34,6 +34,7 @@
             pkgs.aria2
             pkgs.wget
             pkgs.w3m
+            pkgs.pinentry-curses
           ];
 
         environment.variables = {
@@ -114,6 +115,7 @@
             "gcenx/wine/wineskin"
             "gcenx/wine/wine-crossover"
             "transmission"
+            "xquartz"
           ];
 
           masApps = {
@@ -121,7 +123,6 @@
             "Microsoft Remote Desktop" = 1295203466;
             "WireGuard" = 1451685025;
             "Notability" = 360593530;
-            "Xcode" = 497799835;
             "Infuse" = 1136220934;
           };
         };

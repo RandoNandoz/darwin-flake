@@ -35,6 +35,7 @@
             pkgs.wget
             pkgs.w3m
             pkgs.pinentry-curses
+            pkgs.android-tools
           ];
 
         environment.variables = {
@@ -116,6 +117,9 @@
             "gcenx/wine/wine-crossover"
             "transmission"
             "xquartz"
+            "sf-symbols"
+            "unity-hub"
+            "dotnet-sdk"
           ];
 
           masApps = {

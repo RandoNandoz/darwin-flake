@@ -36,6 +36,10 @@
             pkgs.w3m
             pkgs.pinentry-curses
             pkgs.android-tools
+            pkgs.texliveFull
+            pkgs.python3
+            pkgs.binwalk
+            pkgs.nmap
           ];
 
         environment.variables = {
@@ -107,9 +111,6 @@
             "microsoft-office-businesspro"
             "altserver"
             "termius"
-            "zulu"
-            "zulu21"
-            "zulu8"
             "utm"
             "gimp"
             "prismlauncher"
@@ -120,6 +121,14 @@
             "sf-symbols"
             "unity-hub"
             "dotnet-sdk"
+            "google-chrome"
+            "pycharm"
+            "idafree"
+            "ghidra"
+            "temurin"
+            "docker"
+            "rustdesk"
+            "parsec"
           ];
 
           masApps = {

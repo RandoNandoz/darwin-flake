@@ -129,6 +129,9 @@
             "docker"
             "rustdesk"
             "parsec"
+            "zoom"
+            "adobe-acrobat-reader"
+            "obs-studio"
           ];
 
           masApps = {

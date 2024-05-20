@@ -131,7 +131,7 @@
             "parsec"
             "zoom"
             "adobe-acrobat-reader"
-            "obs-studio"
+            "obs"
           ];
 
           masApps = {

@@ -40,6 +40,7 @@
             pkgs.python3
             pkgs.binwalk
             pkgs.nmap
+            pkgs.gcc
           ];
 
         environment.variables = {
@@ -99,6 +100,8 @@
           ];
           enable = true;
           onActivation.cleanup = "zap";
+          onActivation.upgrade = true;
+          global.autoUpdate = true;
 
           casks = [
             "rectangle"

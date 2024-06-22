@@ -135,6 +135,9 @@
             "zoom"
             "adobe-acrobat-reader"
             "obs"
+            "displaylink"
+            "quarto"
+            "vmware-fusion"
           ];
 
           masApps = {

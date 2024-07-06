@@ -41,6 +41,11 @@
             pkgs.binwalk
             pkgs.nmap
             pkgs.gcc
+            pkgs.yt-dlp
+            pkgs.ffmpeg
+            pkgs.sox
+            pkgs.espeak-ng
+            pkgs.maven
           ];
 
         environment.variables = {
@@ -138,6 +143,9 @@
             "displaylink"
             "quarto"
             "vmware-fusion"
+            "temurin@21"
+            "temurin@11"
+            "gotomeeting"
           ];
 
           masApps = {

@@ -146,8 +146,7 @@
             "temurin@21"
             "temurin@11"
             "xquartz"
-            "microsoft-edge
-"
+            "microsoft-edge"
             "gotomeeting"
           ];
 

@@ -109,7 +109,7 @@
           global.autoUpdate = true;
 
           casks = [
-            "rectangle"
+            # "rectangle"
             "visual-studio-code"
             "spotify"
             "firefox"
@@ -141,13 +141,20 @@
             "adobe-acrobat-reader"
             "obs"
             "displaylink"
+            "cmake"
             "quarto"
             "vmware-fusion"
             "temurin@21"
             "temurin@11"
+            "temurin@17"
             "xquartz"
             "microsoft-edge"
             "gotomeeting"
+            "rider"
+            "visual-studio-code@insiders"
+            "trader-workstation"
+            "clion"
+            "cmake"
           ];
 
           masApps = {
